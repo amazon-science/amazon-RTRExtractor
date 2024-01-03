@@ -1,0 +1,2 @@
+nucleus.o .deps/nucleus.dep: nucleus.cpp ../Escape/GraphIO.h ../Escape/ErrorCode.h \
+ ../Escape/Graph.h ../Escape/Digraph.h ../Escape/Nucleus.h

@@ -1,0 +1,4 @@
+Size = 0, freq = 0, total vertices = 0
+Size = 1, freq = 4, total vertices = 4
+Size = 2, freq = 0, total vertices = 0
+Size = 3, freq = 2, total vertices = 6

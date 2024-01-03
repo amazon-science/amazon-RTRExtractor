@@ -1,0 +1,3 @@
+spectral_triadic.o .deps/spectral_triadic.dep: spectral_triadic.cpp ../Escape/GraphIO.h \
+ ../Escape/ErrorCode.h ../Escape/Graph.h ../Escape/Decomposition.h \
+ ../Escape/ClusterStructures.h

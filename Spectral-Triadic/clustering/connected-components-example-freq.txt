@@ -1,0 +1,11 @@
+Size = 0, freq = 0, total vertices = 0
+Size = 1, freq = 0, total vertices = 0
+Size = 2, freq = 0, total vertices = 0
+Size = 3, freq = 0, total vertices = 0
+Size = 4, freq = 0, total vertices = 0
+Size = 5, freq = 0, total vertices = 0
+Size = 6, freq = 0, total vertices = 0
+Size = 7, freq = 0, total vertices = 0
+Size = 8, freq = 0, total vertices = 0
+Size = 9, freq = 0, total vertices = 0
+Size = 10, freq = 97, total vertices = 970
