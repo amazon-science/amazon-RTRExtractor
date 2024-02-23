@@ -1,6 +1,6 @@
 ## RTRex
 
-This repositary contains the codes for running spectral triadic decomposition on homogenuous graphs.
+This repositary contains the codes for running the RTRex (Regularly Triangle Rich Extractor) for undirected graphs.
 
 ## Input Data
 
@@ -14,13 +14,13 @@ Please refer to the Spectral-Triadic/Example/small-test.txt as an example
 
 ## Compile the Code
 
-In Spectral-Triadic/ run:
+In RTex/ run:
 `make`
 
-## Run Spectral Triadic Decomposition
+## Run the RTRex code
 
-In ‘src/Spectral-Triadic/clustering/’ run:
-`./spectral_triadic <graph_dir> <name> <epsilon> <mode> <additional parameters>`
+In ‘src/RTRex/clustering/’ run:
+`./RTRex <graph_dir> <name> <epsilon> <mode> <additional parameters>`
 
 Parameters:
 
@@ -33,8 +33,8 @@ Parameters:
 * <threshold>: that specifies how many neighbors are required for the isolated vertices. I used 20 for eg_12_200. Best will depend on the average degree of the graph.
 
 Examples:
-`./spectral_triadic ../Example/small-test.txt example 0.1 s`
-`./spectral_triadic ../Example/small-test.txt example 0.1 e 20`
+`./RTRex ../Example/small-test.txt example 0.1 s`
+`./RTex ../Example/small-test.txt example 0.1 e 20`
 
 ## Output
 
