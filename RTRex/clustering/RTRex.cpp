@@ -189,13 +189,13 @@ int main(int argc, char *argv[])
   vector<Cluster> decomposition;
   std::map<VertexIdx, VertexIdx> cluster_map;
   decomposition = disjointExtract(&cg, eps, cluster_map); // get the decomposition
-  printDecomposition(decomposition,&cg,"spectral-triadic-"+name);
+  printDecomposition(decomposition,&cg,"RTRex-"+name);
 
   if (mode == 'e') {
     std::map<VertexIdx,double> scores;
     decomposition = expandClusters(&cg, decomposition, cluster_map, threshold, scores);
-    printDecomposition(decomposition,&cg,"spectral-triadic-expanded-"+name);
-    printScores(scores,"spectral-triadic-expanded-"+name);
+    printDecomposition(decomposition,&cg,"RTRex-expanded-"+name);
+    printScores(scores,"RTRex-expanded-"+name);
   }
 
   decomposition = connectedComp(&cg); // get the connected components
