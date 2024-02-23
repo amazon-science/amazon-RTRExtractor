@@ -391,7 +391,7 @@ void populateStats(CGraph* g, Cluster* clus)
 
 
 
-/* disjointExtract procedure: this follows the spectral triadic decomposition procedure.
+/* disjointExtract procedure: this follows the RTRex procedure.
 First, it computes the weighted triangle info, and then runs the initial clean operation. At this stage,
 every edge has a triangle weight at least eps times the edge weight.
 Then, the extract happens. It process vertices in increasing order of degree, and extract
