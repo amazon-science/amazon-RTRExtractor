@@ -1,4 +1,4 @@
-## Spectral Triadic Decomposition
+## RTRex
 
 This repositary contains the codes for running spectral triadic decomposition on homogenuous graphs.
 
