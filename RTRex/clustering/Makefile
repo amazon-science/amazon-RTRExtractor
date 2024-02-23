@@ -1,6 +1,6 @@
 ESCAPE_HOME := ../
 
-TARGETS := spectral_triadic nucleus
+TARGETS := RTRex nucleus
 
 OBJECTS := $(TARGETS:%=%.o)
 
